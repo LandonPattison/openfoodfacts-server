@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ko\n"
 "Project-Id-Version: openfoodfacts\n"
-"PO-Revision-Date: 2022-05-27 19:06\n"
+"PO-Revision-Date: 2022-06-05 19:07\n"
 "Language-Team: Korean\n"
 "Last-Translator: \n"
 "POT-Creation-Date: \n"
@@ -1020,6 +1020,18 @@ msgstr "정보를 준 사람들"
 msgctxt "ingredients"
 msgid "Ingredients"
 msgstr "성분"
+
+msgctxt "no_ingredient"
+msgid "Ingredients are missing"
+msgstr "성분이 누락되었습니다"
+
+msgctxt "one_ingredient"
+msgid "1 ingredient"
+msgstr "성분 1개"
+
+msgctxt "f_ingredients_with_number"
+msgid "{number} ingredients"
+msgstr "성분 {number}개"
 
 msgctxt "ingredients_alt"
 msgid "Ingredients"
@@ -4507,7 +4519,12 @@ msgid "Nutri-Score not-applicable"
 msgstr ""
 
 msgctxt "attribute_nutriscore_not_applicable_description_short"
-msgid "Exempted category"
+msgid "Not-applicable for the category"
+msgstr ""
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_nutriscore_not_applicable_description"
+msgid "Not-applicable for the category: {category}"
 msgstr ""
 
 msgctxt "attribute_nutriscore_a_description_short"
@@ -5216,6 +5233,23 @@ msgctxt "delete_user_process"
 msgid "User deleted."
 msgstr ""
 
+msgctxt "attribute_ecoscore_not_applicable_title"
+msgid "Eco-Score not yet applicable"
+msgstr ""
+
+msgctxt "attribute_ecoscore_not_applicable_description_short"
+msgid "Not yet applicable for the category"
+msgstr ""
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_ecoscore_not_applicable_description"
+msgid "Not yet applicable for the category: {category}"
+msgstr ""
+
+msgctxt "ecoscore_not_applicable_coming_soon"
+msgid "The Eco-Score is not yet applicable for this category, but we are working on adding support for it."
+msgstr ""
+
 msgctxt "attribute_ecoscore_unknown_title"
 msgid "Eco-Score not computed"
 msgstr ""
@@ -5834,10 +5868,6 @@ msgstr ""
 msgctxt "f_energy_expenditure_for_weight_in_kg_lb"
 msgid "Energy expenditure for a person weighting {kg} kg / {lb} lb"
 msgstr ""
-
-msgctxt "nutriscore_not_applicable_short"
-msgid "Not applicable for this product"
-msgstr "이 상품에서는 이용할 수 없음"
 
 msgctxt "nutriscore_missing_category_short"
 msgid "Missing category"

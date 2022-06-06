@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lol\n"
 "Project-Id-Version: openfoodfacts\n"
-"PO-Revision-Date: 2022-05-27 19:16\n"
+"PO-Revision-Date: 2022-06-05 19:18\n"
 "Language-Team: LOLCAT\n"
 "Last-Translator: \n"
 "POT-Creation-Date: \n"
@@ -1003,6 +1003,18 @@ msgstr "crwdns165328:0crwdne165328:0"
 msgctxt "ingredients"
 msgid "Ingredients"
 msgstr "crwdns165330:0crwdne165330:0"
+
+msgctxt "no_ingredient"
+msgid "Ingredients are missing"
+msgstr "crwdns193356:0crwdne193356:0"
+
+msgctxt "one_ingredient"
+msgid "1 ingredient"
+msgstr "crwdns193358:0crwdne193358:0"
+
+msgctxt "f_ingredients_with_number"
+msgid "{number} ingredients"
+msgstr "crwdns193360:0{number}crwdne193360:0"
 
 msgctxt "ingredients_alt"
 msgid "Ingredients"
@@ -4477,8 +4489,13 @@ msgid "Nutri-Score not-applicable"
 msgstr "crwdns192015:0crwdne192015:0"
 
 msgctxt "attribute_nutriscore_not_applicable_description_short"
-msgid "Exempted category"
-msgstr "crwdns192017:0crwdne192017:0"
+msgid "Not-applicable for the category"
+msgstr "crwdns194064:0crwdne194064:0"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_nutriscore_not_applicable_description"
+msgid "Not-applicable for the category: {category}"
+msgstr "crwdns194066:0{category}crwdne194066:0"
 
 msgctxt "attribute_nutriscore_a_description_short"
 msgid "Very good nutritional quality"
@@ -5186,6 +5203,23 @@ msgctxt "delete_user_process"
 msgid "User deleted."
 msgstr "crwdns177492:0crwdne177492:0"
 
+msgctxt "attribute_ecoscore_not_applicable_title"
+msgid "Eco-Score not yet applicable"
+msgstr "crwdns194068:0crwdne194068:0"
+
+msgctxt "attribute_ecoscore_not_applicable_description_short"
+msgid "Not yet applicable for the category"
+msgstr "crwdns194070:0crwdne194070:0"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_ecoscore_not_applicable_description"
+msgid "Not yet applicable for the category: {category}"
+msgstr "crwdns194072:0{category}crwdne194072:0"
+
+msgctxt "ecoscore_not_applicable_coming_soon"
+msgid "The Eco-Score is not yet applicable for this category, but we are working on adding support for it."
+msgstr "crwdns194074:0crwdne194074:0"
+
 msgctxt "attribute_ecoscore_unknown_title"
 msgid "Eco-Score not computed"
 msgstr "crwdns177812:0crwdne177812:0"
@@ -5804,10 +5838,6 @@ msgstr "crwdns191717:0{minutes}crwdnd191717:0{steps}crwdne191717:0"
 msgctxt "f_energy_expenditure_for_weight_in_kg_lb"
 msgid "Energy expenditure for a person weighting {kg} kg / {lb} lb"
 msgstr "crwdns191719:0{kg}crwdnd191719:0{lb}crwdne191719:0"
-
-msgctxt "nutriscore_not_applicable_short"
-msgid "Not applicable for this product"
-msgstr "crwdns192003:0crwdne192003:0"
 
 msgctxt "nutriscore_missing_category_short"
 msgid "Missing category"

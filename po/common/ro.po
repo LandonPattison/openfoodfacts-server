@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro\n"
 "Project-Id-Version: openfoodfacts\n"
-"PO-Revision-Date: 2022-05-27 19:04\n"
+"PO-Revision-Date: 2022-06-05 19:04\n"
 "Language-Team: Romanian\n"
 "Last-Translator: \n"
 "POT-Creation-Date: \n"
@@ -1017,6 +1017,18 @@ msgstr "informator"
 msgctxt "ingredients"
 msgid "Ingredients"
 msgstr "Ingrediente"
+
+msgctxt "no_ingredient"
+msgid "Ingredients are missing"
+msgstr ""
+
+msgctxt "one_ingredient"
+msgid "1 ingredient"
+msgstr ""
+
+msgctxt "f_ingredients_with_number"
+msgid "{number} ingredients"
+msgstr ""
 
 msgctxt "ingredients_alt"
 msgid "Ingredients"
@@ -4505,8 +4517,13 @@ msgid "Nutri-Score not-applicable"
 msgstr "Nutri-Scor nu este aplicabil"
 
 msgctxt "attribute_nutriscore_not_applicable_description_short"
-msgid "Exempted category"
-msgstr "Categorie exceptată"
+msgid "Not-applicable for the category"
+msgstr "Nu se aplică categoriei"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_nutriscore_not_applicable_description"
+msgid "Not-applicable for the category: {category}"
+msgstr "Nu se aplică pentru categoria: {category}"
 
 msgctxt "attribute_nutriscore_a_description_short"
 msgid "Very good nutritional quality"
@@ -5214,6 +5231,23 @@ msgctxt "delete_user_process"
 msgid "User deleted."
 msgstr "Utilizatorul a fost șters."
 
+msgctxt "attribute_ecoscore_not_applicable_title"
+msgid "Eco-Score not yet applicable"
+msgstr "Scorul Eco nu se aplică încă"
+
+msgctxt "attribute_ecoscore_not_applicable_description_short"
+msgid "Not yet applicable for the category"
+msgstr "Nu se aplică încă pentru categorie"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_ecoscore_not_applicable_description"
+msgid "Not yet applicable for the category: {category}"
+msgstr "Nu se aplică încă pentru categoria: {category}"
+
+msgctxt "ecoscore_not_applicable_coming_soon"
+msgid "The Eco-Score is not yet applicable for this category, but we are working on adding support for it."
+msgstr "Scorul Eco nu este încă aplicabil pentru această categorie, dar lucrăm la adăugarea suportului pentru aceasta."
+
 msgctxt "attribute_ecoscore_unknown_title"
 msgid "Eco-Score not computed"
 msgstr "Eco-Score nu a fost calculat"
@@ -5833,10 +5867,6 @@ msgctxt "f_energy_expenditure_for_weight_in_kg_lb"
 msgid "Energy expenditure for a person weighting {kg} kg / {lb} lb"
 msgstr "Cheltuieli cu energia pentru o persoană ponderată {kg} kg / {lb} lb"
 
-msgctxt "nutriscore_not_applicable_short"
-msgid "Not applicable for this product"
-msgstr "Nu se aplică pentru acest produs"
-
 msgctxt "nutriscore_missing_category_short"
 msgid "Missing category"
 msgstr "Lipsește categoria"
@@ -5996,9 +6026,9 @@ msgstr "Nu se potrivește"
 
 msgctxt "reset_preferences"
 msgid "Use default preferences"
-msgstr ""
+msgstr "Utilizați preferințele implicite"
 
 msgctxt "reset_preferences_details"
 msgid "Nutri-Score, Eco-Score and food processing level (NOVA)"
-msgstr ""
+msgstr "Nutri-Score, Eco-Score și nivel de procesare a alimentelor (NOVA)"
 

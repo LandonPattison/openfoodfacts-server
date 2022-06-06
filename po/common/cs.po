@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
 "Project-Id-Version: openfoodfacts\n"
-"PO-Revision-Date: 2022-05-27 19:05\n"
+"PO-Revision-Date: 2022-06-06 02:39\n"
 "Language-Team: Czech\n"
 "Last-Translator: \n"
 "POT-Creation-Date: \n"
@@ -1016,6 +1016,18 @@ msgstr "informátoři"
 msgctxt "ingredients"
 msgid "Ingredients"
 msgstr "Složení"
+
+msgctxt "no_ingredient"
+msgid "Ingredients are missing"
+msgstr ""
+
+msgctxt "one_ingredient"
+msgid "1 ingredient"
+msgstr "1 přísada"
+
+msgctxt "f_ingredients_with_number"
+msgid "{number} ingredients"
+msgstr "{number} přísad"
 
 msgctxt "ingredients_alt"
 msgid "Ingredients"
@@ -3036,7 +3048,7 @@ msgstr "Původ produktu a/nebo jeho složek"
 
 msgctxt "origin_note"
 msgid "Packaging mentions that indicate the manufacturing place and/or the origins of the ingredients"
-msgstr ""
+msgstr "Zmínky na obalu, které udávají místo výroby a/nebo původ složek"
 
 msgctxt "origin_example"
 msgid "Made in France. Tomatoes from Italy. Origin of the rice: India, Thailand."
@@ -3088,7 +3100,7 @@ msgstr "Produkty dokončené %s"
 
 msgctxt "informers_without_products"
 msgid "Products not completed by %s"
-msgstr ""
+msgstr "Produkty nedokončené od %s"
 
 msgctxt "photographers_products"
 msgid "Products photographed by %s"
@@ -3439,7 +3451,7 @@ msgstr "Do textového pole vpravo zadejte název kategorie."
 # Please do not translate Y, Yes and 1
 msgctxt "sources_fields_specific_tag"
 msgid "Select this option for fields that are specific to the source, and that we want to keep as source specific fields."
-msgstr ""
+msgstr "Tuto možnost vyberte pro pole, která jsou specifická pro zdroj a která chceme zachovat jako pole specifická pro zdroj."
 
 msgctxt "sources_fields_specific_tag_value"
 msgid "Type the name of the target field in the text field on the right, or leave blank to use the name of the source field."
@@ -4504,8 +4516,13 @@ msgid "Nutri-Score not-applicable"
 msgstr "Nutri-Score nelze použít"
 
 msgctxt "attribute_nutriscore_not_applicable_description_short"
-msgid "Exempted category"
-msgstr "Vyňatá kategorie"
+msgid "Not-applicable for the category"
+msgstr "Neplatí pro kategorii"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_nutriscore_not_applicable_description"
+msgid "Not-applicable for the category: {category}"
+msgstr "Neplatí pro kategorii: {category}"
 
 msgctxt "attribute_nutriscore_a_description_short"
 msgid "Very good nutritional quality"
@@ -5213,6 +5230,23 @@ msgctxt "delete_user_process"
 msgid "User deleted."
 msgstr "Uživatel byl smazán."
 
+msgctxt "attribute_ecoscore_not_applicable_title"
+msgid "Eco-Score not yet applicable"
+msgstr "Eco-Score zatím nelze použít"
+
+msgctxt "attribute_ecoscore_not_applicable_description_short"
+msgid "Not yet applicable for the category"
+msgstr "Pro kategorii zatím neplatí"
+
+# variable names between { } must not be translated
+msgctxt "f_attribute_ecoscore_not_applicable_description"
+msgid "Not yet applicable for the category: {category}"
+msgstr "Zatím neplatí pro kategorii: {category}"
+
+msgctxt "ecoscore_not_applicable_coming_soon"
+msgid "The Eco-Score is not yet applicable for this category, but we are working on adding support for it."
+msgstr ""
+
 msgctxt "attribute_ecoscore_unknown_title"
 msgid "Eco-Score not computed"
 msgstr "Eko-skóre není vypočítáno"
@@ -5515,7 +5549,7 @@ msgstr "Údaje o obalu tohoto výrobku nejsou dostatečně přesné (přesné tv
 
 msgctxt "ecoscore_edit_for_more_precise_ecoscore"
 msgid "For a more precise calculation of the Eco-Score, you can modify the product page and add them."
-msgstr ""
+msgstr "Pro přesnější výpočet Eco-Score můžete upravit stránku produktu a přidat je."
 
 msgctxt "ecoscore_final_score"
 msgid "Final score"
@@ -5831,10 +5865,6 @@ msgstr "Rovná se chůzi {minutes} minut nebo {steps} kroků"
 msgctxt "f_energy_expenditure_for_weight_in_kg_lb"
 msgid "Energy expenditure for a person weighting {kg} kg / {lb} lb"
 msgstr "Energetické výdaje na váhu osoby {kg} kg / {lb} lb"
-
-msgctxt "nutriscore_not_applicable_short"
-msgid "Not applicable for this product"
-msgstr "Neplatí pro tento produkt"
 
 msgctxt "nutriscore_missing_category_short"
 msgid "Missing category"
